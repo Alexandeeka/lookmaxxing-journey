@@ -86,6 +86,45 @@ function renderFoundationVideos(videos) {
   grid.innerHTML = html;
   section.style.display = html ? "block" : "none";
 }
+
+function renderPlaylists(playlists) {
+  const section = document.getElementById("playlistSection");
+  const grid = document.getElementById("playlistGrid");
+  if (!section || !grid) return;
+
+  const groups = playlists || {};
+  const list = Object.entries(groups).flatMap(([category, items]) =>
+    (Array.isArray(items) ? items : (items ? [items] : [])).map(item => ({ ...item, category }))
+  );
+
+  const valid = list.filter(item => item && item.url && item.image);
+  grid.innerHTML = valid.map((item, index) => {
+    const image = safeUrl(item.image);
+    const url = safeUrl(item.url);
+    if (!image || !url) return "";
+    const title = item.title || "PLAYLIST";
+    const subtitle = item.subtitle || "YouTube Playlist";
+    const description = item.description || "";
+    return `
+      <a class="playlist-card" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" aria-label="Buka ${escapeHtml(title)} di YouTube">
+        <div class="playlist-thumb">
+          <img src="${escapeHtml(image)}" alt="${escapeHtml(title)}" loading="lazy">
+          <span class="playlist-play" aria-hidden="true">▶</span>
+          <span class="playlist-badge">YOUTUBE PLAYLIST</span>
+        </div>
+        <div class="playlist-info">
+          <div class="playlist-kicker">${escapeHtml(String(item.category || "").toUpperCase())}</div>
+          <h3>${escapeHtml(title)}</h3>
+          <strong>${escapeHtml(subtitle)}</strong>
+          ${description ? `<p>${escapeHtml(description)}</p>` : ""}
+          <span class="playlist-open">BUKA PLAYLIST ↗</span>
+        </div>
+      </a>`;
+  }).join("");
+
+  section.style.display = valid.length ? "block" : "none";
+}
+
 function setStatus(message, ok=false) {
   const el = document.getElementById("contentStatus");
   if (el) el.textContent = message;
@@ -142,8 +181,8 @@ function apply(data) {
   Object.entries(images).forEach(([key, url]) => setImage(key === "hero" ? "heroImage" : `${key}Image`, url));
   const videos = data.videos || {};
   setVideo("mainVideo", videos.main);
-  renderFoundationVideos(videos.foundation);
   ["face", "fitness", "hair", "skin", "style"].forEach(key => setVideo(`${key}Video`, videos[key]));
+  renderPlaylists(data.playlists || {});
 
   const sec = data.sections || {};
   renderSection("sectionFoundation", sec.foundation, 1);
