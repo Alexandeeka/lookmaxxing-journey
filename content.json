@@ -14,15 +14,15 @@
   "videos": {
     "main": "",
     "foundation": [
-  {
-    "title": "PROVEN METHOD | DASAR LOOKMAXXING",
-    "url": "https://youtu.be/7HvcoICeA-8?si=FgMrU7gJ_OxwJE4Z"
-  },
-  {
-    "title": "VIDEO 2 — DASAR LOOKMAXXING",
-    "url": "LINK_YOUTUBE_2"
-  }
-],
+      {
+        "title": "VIDEO 1 — MULAI DARI DASAR",
+        "url": ""
+      },
+      {
+        "title": "VIDEO 2 — DASAR LOOKMAXXING",
+        "url": ""
+      }
+    ],
     "face": "",
     "fitness": "",
     "hair": "",
