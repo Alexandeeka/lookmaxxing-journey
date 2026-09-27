@@ -1,0 +1,662 @@
+{
+  "site": {
+    "brand": "DIKARCHETYOE",
+    "title": "LOOKMAXXING ROADMAP",
+    "subtitle": "Panduan dasar untuk merawat diri, rambut, kulit, kebugaran, gaya, dan kebiasaan sehat. Mulai dari hal yang bisa dikontrol dan hindari metode ekstrem.",
+    "tag": "NEW MEMBER • INDONESIA",
+    "copyright": "© 2026 Dikarchetyoe",
+    "accent": "DASAR • WAJAH • RAMBUT • KULIT • KEBUGARAN • GAYA"
+  },
+  "github": {
+    "contentUrl": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/content.json",
+    "note": "Setelah file ini diunggah ke GitHub, ubah URL RAW di app.js agar website membaca versi GitHub. Jangan masukkan token atau password."
+  },
+  "videos": {
+    "main": "",
+    "foundation": "",
+    "face": "",
+    "fitness": "",
+    "hair": "",
+    "skin": "",
+    "style": ""
+  },
+  "images": {
+    "hero": "",
+    "foundation": "",
+    "face": "",
+    "fitness": "",
+    "hair": "",
+    "skin": "",
+    "style": ""
+  },
+  "sections": {
+    "foundation": {
+      "title": "01 • FOUNDATION / DASAR",
+      "desc": "Fondasi paling penting: kebersihan, tidur, makan cukup dan beragam, aktivitas fisik, serta konsistensi.",
+      "cards": [
+        [
+          "SLEEPMAXXING",
+          "Fokus pada jadwal tidur yang konsisten dan waktu istirahat yang cukup. Tidur adalah bagian dari pemulihan, bukan trik instan."
+        ],
+        [
+          "HYGIENEMAXXING",
+          "Mandi, gunakan deodorant bila perlu, rawat gigi dan kuku, serta kenakan pakaian bersih. Ini adalah dasar grooming."
+        ],
+        [
+          "POSTURE",
+          "Jaga posisi tubuh yang nyaman dan aktif. Tujuannya mendukung fungsi dan kebiasaan baik, bukan memaksa bentuk tubuh."
+        ],
+        [
+          "CONSISTENCY",
+          "Rutinitas sederhana yang dilakukan terus-menerus lebih berguna daripada berganti-ganti tren setiap hari."
+        ]
+      ]
+    },
+    "face": {
+      "title": "02 • FACEMAXXING / PERAWATAN WAJAH",
+      "desc": "Perawatan wajah yang sederhana dan realistis: kebersihan, skincare dasar, senyum, gigi, alis, dan grooming.",
+      "cards": [
+        [
+          "SKINCARE",
+          "Gunakan pembersih yang lembut dan moisturizer bila diperlukan. Tambahkan produk lain hanya jika ada kebutuhan yang jelas."
+        ],
+        [
+          "SUN PROTECTION",
+          "Sunscreen membantu melindungi kulit dari paparan UV. Ikuti petunjuk pada label dan gunakan sesuai aktivitas."
+        ],
+        [
+          "BROWS",
+          "Rapikan alis seperlunya agar terlihat bersih. Tidak perlu mengejar bentuk ekstrem atau membandingkannya dengan orang lain."
+        ],
+        [
+          "SMILE & TEETH",
+          "Sikat gigi secara teratur dan rawat kesehatan mulut. Untuk keluhan gigi atau rahang, tanyakan kepada dokter gigi."
+        ]
+      ]
+    },
+    "fitness": {
+      "title": "03 • GYMMAXXING / KEBUGARAN",
+      "desc": "Kebugaran untuk kesehatan, kekuatan, koordinasi, dan energi sehari-hari—bukan mengejar bentuk tubuh ekstrem.",
+      "cards": [
+        [
+          "STRENGTH",
+          "Latihan kekuatan dengan teknik yang benar dan beban yang sesuai kemampuan. Utamakan belajar gerakan daripada mengejar angka."
+        ],
+        [
+          "CARDIO",
+          "Jalan, lari ringan, bersepeda, olahraga sekolah, atau aktivitas lain yang kamu nikmati untuk menjaga kebugaran."
+        ],
+        [
+          "FOOD",
+          "Makan cukup dan beragam: karbohidrat, protein, lemak, buah, sayur, dan air. Tidak perlu diet ekstrem."
+        ],
+        [
+          "RECOVERY",
+          "Hari istirahat dan tidur adalah bagian dari latihan. Jangan memaksakan olahraga saat sedang sakit atau kelelahan."
+        ]
+      ]
+    },
+    "hair": {
+      "title": "04 • HAIRMAXXING / PERAWATAN RAMBUT",
+      "desc": "Rawat dan tata rambut sesuai tekstur rambutmu. Teknik, kelembapan, dan konsistensi sering lebih penting daripada produk mahal.",
+      "cards": [
+        [
+          "RE-WET",
+          "Basahi atau re-wet rambut ketika perlu agar tekstur curly kembali terbentuk sebelum styling."
+        ],
+        [
+          "LEAVE-IN",
+          "Leave-in conditioner dapat membantu rambut terasa lebih lembap dan mudah ditata. Sesuaikan jumlah dengan kebutuhan rambut."
+        ],
+        [
+          "STYLE",
+          "Arahkan curl sesuai bentuk yang kamu inginkan, lalu biarkan mengering tanpa terlalu sering menyentuhnya."
+        ],
+        [
+          "WASH",
+          "Cuci rambut sesuai kebutuhan kulit kepala dan tekstur rambut. Sesuaikan frekuensi jika rambut terasa terlalu kering atau berminyak."
+        ]
+      ]
+    },
+    "skin": {
+      "title": "05 • SKINMAXXING / PERAWATAN KULIT",
+      "desc": "Rutinitas kulit tidak harus rumit. Utamakan pembersihan yang lembut, kelembapan, dan perlindungan dari UV.",
+      "cards": [
+        [
+          "CLEANSE",
+          "Bersihkan wajah dengan cleanser yang sesuai dan hindari menggosok terlalu keras."
+        ],
+        [
+          "MOISTURIZE",
+          "Moisturizer membantu menjaga skin barrier, terutama ketika kulit terasa kering atau terasa tertarik."
+        ],
+        [
+          "SPF",
+          "Gunakan sunscreen pada siang hari sesuai petunjuk label dan kondisi aktivitas."
+        ],
+        [
+          "DON'T OVERDO",
+          "Jangan menumpuk banyak bahan aktif hanya karena sedang viral. Iritasi bukan tanda rutinitas bekerja."
+        ]
+      ]
+    },
+    "style": {
+      "title": "06 • STYLEMAXXING / GAYA BERPAKAIAN",
+      "desc": "Gunakan pakaian yang bersih, nyaman, sesuai kegiatan, dan punya kombinasi warna serta ukuran yang rapi.",
+      "cards": [
+        [
+          "FIT",
+          "Pilih pakaian yang nyaman untuk bergerak dan ukurannya sesuai. Kerapian lebih penting daripada mengikuti satu bentuk tubuh ideal."
+        ],
+        [
+          "COLOR",
+          "Gunakan kombinasi warna yang sederhana dan sesuai kegiatan. Mulai dari warna netral jika bingung memadukan pakaian."
+        ],
+        [
+          "GROOMING",
+          "Pastikan pakaian bersih, rambut tertata, sepatu terawat, dan detail kecil seperti kuku tetap rapi."
+        ],
+        [
+          "PRESENTATION",
+          "Sesuaikan pakaian dengan sekolah, olahraga, acara, atau aktivitas lain. Gaya yang baik tetap harus nyaman dan sesuai aturan."
+        ]
+      ]
+    }
+  },
+  "dictionary": [
+    [
+      "LOOKSMAXXING",
+      "Usaha meningkatkan penampilan melalui grooming, rambut, kulit, style, kebiasaan sehat, fitness, dan hal lain yang aman dan realistis."
+    ],
+    [
+      "-MAXXING",
+      "Akhiran slang untuk fokus meningkatkan satu area, misalnya hairmaxxing, skinmaxxing, gymmaxxing, sleepmaxxing."
+    ],
+    [
+      "SOFTMAXXING",
+      "Perubahan non-invasif seperti grooming, skincare dasar, rambut, fitness, tidur, dan style."
+    ],
+    [
+      "HARDMAXXING",
+      "Istilah komunitas untuk perubahan yang lebih permanen/invasif. Ini bukan sesuatu yang perlu dikejar, terutama saat masih remaja."
+    ],
+    [
+      "PSL",
+      "Skala/rating attractiveness yang berkembang dari komunitas PUAHate, SlutHate, dan Lookism. Bukan alat ukur ilmiah dan hasilnya bisa berbeda antar-rater."
+    ],
+    [
+      "SUB-5",
+      "Slang untuk skor di bawah 5 pada skala PSL versi komunitas tertentu. Angka dan maknanya tidak konsisten antar komunitas."
+    ],
+    [
+      "LTN / MTN / HTN",
+      "Low / Mid / High Tier Normie. Label komunitas untuk kelompok penampilan tertentu; batasannya berbeda-beda dan bukan klasifikasi resmi."
+    ],
+    [
+      "NORMIE",
+      "Slang internet untuk orang yang dianggap biasa/arus utama; konteksnya bisa berbeda dari sekadar 'rata-rata'."
+    ],
+    [
+      "APPEAL",
+      "Istilah komunitas untuk daya tarik atau kesan keseluruhan yang ditimbulkan seseorang; sering mencakup wajah, harmony, grooming, style, dan presentasi. Definisinya tidak baku."
+    ],
+    [
+      "MOG / MOGGING",
+      "Slang untuk terlihat lebih menonjol atau 'mengungguli' orang lain pada konteks tertentu, misalnya face-mog, height-mog, hair-mog."
+    ],
+    [
+      "MOGGER",
+      "Orang yang dianggap sedang melakukan 'mogging' dalam bahasa komunitas."
+    ],
+    [
+      "LOOKSMATCH",
+      "Istilah untuk dua orang yang dianggap memiliki tingkat daya tarik yang mirip. Ini adalah slang, bukan aturan hubungan."
+    ],
+    [
+      "HALO",
+      "Fitur atau kesan positif yang menurut komunitas dapat membuat keseluruhan penampilan terlihat lebih baik."
+    ],
+    [
+      "FAILO",
+      "Kebalikan halo: fitur atau kesan yang dianggap mengurangi keseluruhan impression menurut komunitas."
+    ],
+    [
+      "HARMONY",
+      "Kecocokan/proposi antar fitur wajah menurut bahasa komunitas. Bukan satu angka yang punya standar universal."
+    ],
+    [
+      "FACIAL HARMONY",
+      "Istilah untuk membahas bagaimana fitur wajah terlihat cocok satu sama lain secara keseluruhan."
+    ],
+    [
+      "CANTHAL TILT",
+      "Sudut garis dari sudut mata bagian dalam ke bagian luar. Positif berarti bagian luar lebih tinggi, netral sejajar, negatif lebih rendah."
+    ],
+    [
+      "HUNTER EYES",
+      "Label komunitas untuk area mata yang dianggap lebih hooded/deep-set dan biasanya dikaitkan dengan tampilan tertentu. Bukan diagnosis atau standar kesehatan."
+    ],
+    [
+      "PREY EYES",
+      "Label slang untuk area mata yang lebih terbuka/rounded dibanding gambaran 'hunter eyes'. Ini adalah kategori komunitas, bukan klasifikasi medis."
+    ],
+    [
+      "UEE",
+      "Upper Eyelid Exposure: istilah untuk banyaknya bagian kelopak atas yang terlihat."
+    ],
+    [
+      "IPD",
+      "Interpupillary Distance: jarak antara pusat kedua pupil. Ini adalah ukuran anatomi nyata, tetapi angka 'ideal' yang beredar di komunitas tidak universal."
+    ],
+    [
+      "MAXILLA",
+      "Tulang rahang atas/midface yang dibahas dalam anatomi wajah."
+    ],
+    [
+      "MANDIBLE",
+      "Tulang rahang bawah."
+    ],
+    [
+      "RAMUS",
+      "Bagian vertikal dari tulang mandibula."
+    ],
+    [
+      "ZYGOS",
+      "Slang untuk zygomatic bones/area tulang pipi."
+    ],
+    [
+      "GONIAL ANGLE",
+      "Sudut pada area pertemuan body dan ramus mandibula."
+    ],
+    [
+      "MIDFACE",
+      "Area tengah wajah, biasanya dibahas di sekitar mata, hidung, dan pipi."
+    ],
+    [
+      "PHILTRUM",
+      "Lekukan vertikal antara hidung dan bibir atas."
+    ],
+    [
+      "NEOTENY",
+      "Ciri yang tampak lebih youthful/juvenile pada wajah."
+    ],
+    [
+      "DIMORPHISM",
+      "Istilah untuk sejauh mana fitur dibaca lebih maskulin atau feminin; penggunaannya sangat tergantung konteks."
+    ],
+    [
+      "RECESSION",
+      "Dalam konteks lookism bisa berarti hairline recession atau posisi rahang/midface yang dianggap lebih mundur."
+    ],
+    [
+      "NORWOOD",
+      "Skala klasifikasi pola kerontokan rambut pria. Bukan rating daya tarik."
+    ],
+    [
+      "COPE",
+      "Slang untuk alasan/rasionalisasi yang dianggap seseorang sebagai cara menghindari kenyataan yang tidak nyaman. Sering dipakai secara bercanda atau menyerang."
+    ],
+    [
+      "SEETHE",
+      "Slang internet untuk keadaan ketika seseorang dianggap sangat kesal/frustrasi."
+    ],
+    [
+      "MIRIN",
+      "Dari 'mirin'/'mirin' slang internet: mengagumi atau iri positif terhadap sesuatu."
+    ],
+    [
+      "JFL",
+      "Umumnya slang dari 'just fucking laughing'; sering dipakai sebagai reaksi mengejek/menertawakan sesuatu. Maknanya dapat berbeda menurut komunitas."
+    ],
+    [
+      "JBT",
+      "Sering digunakan sebagai 'Just Be Tall' di sebagian komunitas looksmaxxing. Karena slang ini ambigu, konteks komunitas tetap penting."
+    ],
+    [
+      "JBG",
+      "Di beberapa komunitas dipakai sebagai 'Just Be Gay', biasanya sebagai meme tentang dating/attraction. Ini bukan aturan tentang orientasi seseorang."
+    ],
+    [
+      "JBA",
+      "Umumnya 'Just Be Attractive', sebuah meme yang menyederhanakan masalah penampilan menjadi 'cukup jadi menarik'."
+    ],
+    [
+      "JBW / JBE / JBB",
+      "Singkatan yang muncul di sebagian komunitas sebagai Just Be White / Just Be Ethnic / Just Be Black. Biasanya berupa meme/claim komunitas, bukan hukum tentang daya tarik."
+    ],
+    [
+      "DNR",
+      "Maknanya bergantung konteks. Dalam banyak forum internet berarti 'Did Not Read', tetapi komunitas tertentu bisa memberi arti lain. Jangan menebak tanpa konteks."
+    ],
+    [
+      "DNRD",
+      "Sering dipakai sebagai variasi slang DNR di sebagian forum; maknanya tidak universal, jadi konteks thread penting."
+    ],
+    [
+      "GREYCEL / GREY",
+      "Label komunitas untuk pandangan yang mencoba berada di antara fatalisme blackpill dan optimisme berlebihan; definisi bisa berubah antar forum."
+    ],
+    [
+      "LOOKSPILL",
+      "Istilah untuk 'membongkar' atau menjelaskan faktor penampilan yang dianggap penting oleh komunitas."
+    ],
+    [
+      "BLACKPILL",
+      "Ideologi/slang fatalistis yang menekankan bahwa penampilan dan faktor bawaan sangat menentukan hasil sosial/dating. Klaim ekstremnya tidak boleh dianggap sebagai fakta ilmiah."
+    ],
+    [
+      "WHITEPILL",
+      "Slang untuk pandangan yang lebih optimistis/positif dibanding blackpill."
+    ],
+    [
+      "REDPILL",
+      "Istilah internet luas dengan banyak arti; dalam konteks looksmaxxing bisa merujuk pada keyakinan tertentu tentang dating/gender. Arti harus dilihat dari konteks."
+    ],
+    [
+      "STATUSPILL",
+      "Kerangka/slang yang menekankan pengaruh status sosial dalam daya tarik atau interaksi."
+    ],
+    [
+      "HEIGHTPILL",
+      "Slang yang menekankan tinggi badan sebagai faktor daya tarik. Komunitas sering membahasnya secara berlebihan; pengaruh nyata bergantung konteks."
+    ],
+    [
+      "MAXXING",
+      "Upaya sengaja meningkatkan satu atau beberapa area. Contoh: groomingmaxxing, hairmaxxing."
+    ],
+    [
+      "DEBLOAT",
+      "Slang untuk mengurangi rasa/kesan 'bengkak' atau puffiness. Jangan digunakan untuk membenarkan dehidrasi, puasa ekstrem, atau perilaku berbahaya."
+    ],
+    [
+      "BONESMASHING",
+      "Tren berbahaya yang mengklaim memukul tulang wajah dapat mengubah bentuknya. Jangan dilakukan; cedera dapat terjadi dan klaim manfaatnya tidak punya dasar yang aman."
+    ],
+    [
+      "MEWING",
+      "Latihan/postur lidah yang populer di internet. Jangan menganggapnya sebagai cara ajaib mengubah struktur wajah secara dramatis."
+    ],
+    [
+      "GROOMINGMAXXING",
+      "Fokus meningkatkan grooming: rambut, kebersihan, kuku, gigi, dan detail penampilan."
+    ],
+    [
+      "HAIRMAXXING",
+      "Fokus pada perawatan dan styling rambut."
+    ],
+    [
+      "SKINMAXXING",
+      "Fokus pada skincare dan perawatan kulit."
+    ],
+    [
+      "GYMMAXXING",
+      "Fokus pada fitness dan latihan untuk kesehatan, kekuatan, dan kebugaran."
+    ],
+    [
+      "SLEEPMAXXING",
+      "Fokus memperbaiki kualitas dan konsistensi tidur."
+    ],
+    [
+      "STYLEMAXXING",
+      "Fokus pada pakaian, fit, warna, kebersihan, dan presentasi."
+    ],
+    [
+      "HYPERGAMY",
+      "Istilah sosiologi tentang kecenderungan memilih pasangan dengan karakteristik/status tertentu. Di internet sering disederhanakan menjadi klaim yang jauh lebih luas."
+    ],
+    [
+      "LOOKISM",
+      "Perlakuan atau penilaian berdasarkan penampilan fisik. Istilah ini juga punya sejarah dalam komunitas online yang berkaitan dengan PSL."
+    ],
+    [
+      "ASCENSION",
+      "Slang untuk proses atau hasil peningkatan penampilan yang dianggap signifikan."
+    ],
+    [
+      "FRAUDING",
+      "Slang untuk membuat penampilan terlihat berbeda dari kondisi biasa melalui angle, pencahayaan, sepatu, styling, atau teknik foto tertentu."
+    ],
+    [
+      "HEIGHT FRAUDING",
+      "Jenis frauding yang khusus membahas cara foto/outfit/sepatu membuat seseorang tampak lebih tinggi."
+    ],
+    [
+      "PRETTYBOY",
+      "Arketipe slang untuk laki-laki dengan penampilan youthful/rapi/estetik tertentu. Definisi komunitas tidak baku."
+    ],
+    [
+      "CHADLITE",
+      "Arketipe meme untuk laki-laki yang dianggap sangat menarik tetapi berada di bawah gambaran 'Chad' versi komunitas."
+    ],
+    [
+      "CHAD",
+      "Arketipe meme untuk laki-laki yang dianggap sangat menarik/masculine. Bukan klasifikasi ilmiah."
+    ],
+    [
+      "GIGACHAD",
+      "Versi meme yang dibuat lebih ekstrem dari 'Chad'."
+    ],
+    [
+      "STACY",
+      "Arketipe meme untuk perempuan yang dianggap sangat menarik. Bukan klasifikasi ilmiah."
+    ],
+    [
+      "TRUE ADAM / TRUE EVE",
+      "Label meme ekstrem untuk figur yang dianggap berada di level daya tarik sangat tinggi. Tidak punya standar ilmiah."
+    ],
+    [
+      "JAWMAXXING",
+      "Fokus komunitas pada tampilan area rahang. Hindari metode berbahaya atau klaim perubahan tulang instan."
+    ],
+    [
+      "SMELL / SCENTMAXXING",
+      "Fokus pada kebersihan badan dan aroma yang menyenangkan."
+    ],
+    [
+      "TEETHMAXXING",
+      "Fokus pada kebersihan dan kesehatan gigi, bukan pemutihan ekstrem."
+    ],
+    [
+      "MONEYMAXXING",
+      "Slang bercanda untuk meningkatkan kondisi finansial. Ini bukan bagian wajib dari penampilan."
+    ],
+    [
+      "SOCIALMAXXING",
+      "Fokus pada komunikasi, sopan santun, kepercayaan diri, dan kemampuan bersosialisasi."
+    ],
+    [
+      "AURA",
+      "Slang internet untuk kesan/presence yang dianggap seseorang pancarkan. Sangat subjektif."
+    ],
+    [
+      "NT",
+      "Dalam beberapa komunitas berarti 'neurotypical', tetapi penggunaannya tidak konsisten dan sering dipakai sebagai slang sosial."
+    ],
+    [
+      "FOID",
+      "Slang dari komunitas internet tertentu untuk menyebut perempuan secara dehumanizing. Istilah ini tidak perlu dipakai sebagai label terhadap orang."
+    ],
+    [
+      "ITN / MTN / HTN",
+      "Singkatan tier komunitas yang bisa memiliki rentang berbeda tergantung forum. Jangan memperlakukannya sebagai skor objektif."
+    ],
+    [
+      "DNR + JBG",
+      "Di beberapa komunitas dapat muncul sebagai kombinasi meme/slang. Karena kedua singkatan punya penggunaan berbeda-beda, konteks thread diperlukan sebelum menyimpulkan arti."
+    ],
+    [
+      "PSL 1–8",
+      "Rentang angka yang muncul di sebagian forum untuk membahas daya tarik. Definisi dan cara penilaiannya berbeda-beda serta bukan ukuran ilmiah."
+    ],
+    [
+      "SMV",
+      "Singkatan dari Sexual Market Value yang muncul dalam diskusi dating internet. Maknanya merupakan kerangka komunitas, bukan ukuran nilai manusia."
+    ],
+    [
+      "LMS",
+      "Singkatan yang dapat berarti beberapa hal di internet; dalam komunitas lookism kadang merujuk pada konsep terkait penampilan. Arti harus dilihat dari konteks."
+    ],
+    [
+      "GLOW UP",
+      "Istilah umum untuk perubahan positif pada penampilan, kebiasaan, atau presentasi diri."
+    ],
+    [
+      "GROOMING",
+      "Perawatan kebersihan dan detail penampilan seperti rambut, kuku, gigi, pakaian, dan aroma tubuh."
+    ],
+    [
+      "PRESENTATION",
+      "Cara seseorang menampilkan diri melalui grooming, pakaian, rambut, ekspresi, dan kebiasaan sosial."
+    ],
+    [
+      "AESTHETIC",
+      "Gaya visual atau kesan tertentu. Di internet istilah ini sering dipakai untuk menggambarkan tema outfit, rambut, foto, atau desain."
+    ],
+    [
+      "V-TAPER",
+      "Istilah fitness untuk bentuk visual torso yang terlihat lebih lebar di bagian atas daripada pinggang. Tidak perlu dijadikan target tubuh wajib."
+    ],
+    [
+      "FRAME",
+      "Slang untuk keseluruhan kesan struktur tubuh seperti bahu, torso, dan proporsi. Tidak ada satu frame yang wajib dimiliki semua orang."
+    ],
+    [
+      "FWHR",
+      "Singkatan dari facial width-to-height ratio, yaitu rasio ukuran wajah yang digunakan dalam sebagian penelitian atau diskusi internet. Cara ukur dan interpretasinya perlu hati-hati."
+    ],
+    [
+      "FACIAL THIRDS",
+      "Pembagian wajah secara vertikal menjadi beberapa bagian untuk membahas proporsi. Ini alat deskripsi, bukan standar kecantikan universal."
+    ],
+    [
+      "FACIAL FIFTHS",
+      "Cara populer membagi lebar wajah menjadi lima bagian untuk membahas proporsi mata dan wajah. Bukan tes resmi daya tarik."
+    ],
+    [
+      "PFL",
+      "Singkatan dari palpebral fissure length, yaitu panjang celah mata yang dapat dibahas dalam anatomi wajah."
+    ],
+    [
+      "NCT",
+      "Singkatan yang dalam komunitas tertentu dapat merujuk pada neutral canthal tilt. Karena singkatan ambigu, cek konteks."
+    ],
+    [
+      "OEE",
+      "Singkatan yang dapat dipakai untuk orbital/eye-area exposure dalam diskusi komunitas. Istilah dan cara ukurnya tidak seragam."
+    ],
+    [
+      "BROW RIDGE",
+      "Tonjolan tulang di atas area mata. Dalam forum lookism sering dibahas sebagai bagian dari struktur area mata."
+    ],
+    [
+      "ORBITALS",
+      "Istilah umum untuk area rongga mata atau area di sekitar mata dalam pembahasan anatomi wajah."
+    ],
+    [
+      "MALAR",
+      "Istilah anatomi yang berkaitan dengan tulang pipi/zygomatic area."
+    ],
+    [
+      "CHIN",
+      "Dagu, yaitu bagian depan mandibula yang sering dibahas ketika menjelaskan proporsi wajah."
+    ],
+    [
+      "LIP RATIO",
+      "Istilah umum untuk membahas perbandingan ukuran bibir. Tidak ada satu rasio yang otomatis menentukan daya tarik."
+    ],
+    [
+      "NOSE PROPORTION",
+      "Pembahasan mengenai ukuran dan posisi hidung relatif terhadap bagian wajah lain. Gunakan sebagai deskripsi, bukan patokan nilai diri."
+    ],
+    [
+      "SIDE PROFILE",
+      "Tampilan wajah dari samping yang sering dipakai untuk membahas hubungan hidung, bibir, dagu, dan rahang."
+    ],
+    [
+      "FRONT PROFILE",
+      "Tampilan wajah dari depan yang digunakan untuk melihat keseluruhan bentuk dan posisi fitur."
+    ],
+    [
+      "ANGLE FRAUD",
+      "Teknik foto yang mengubah kesan wajah atau tubuh melalui sudut kamera. Ini berbeda dari perubahan fisik nyata."
+    ],
+    [
+      "LIGHTING FRAUD",
+      "Penggunaan pencahayaan untuk membuat fitur terlihat berbeda dalam foto. Hasil foto tidak selalu menggambarkan kondisi sehari-hari."
+    ],
+    [
+      "PUMP",
+      "Kesan otot terlihat lebih penuh sementara setelah aktivitas fisik. Ini efek sementara, bukan perubahan permanen."
+    ],
+    [
+      "CUTTING",
+      "Istilah fitness untuk fase mengurangi asupan energi dengan tujuan tertentu. Untuk remaja, jangan melakukan pembatasan makan ekstrem tanpa arahan tenaga kesehatan."
+    ],
+    [
+      "BULKING",
+      "Istilah fitness untuk fase meningkatkan asupan energi dan latihan untuk mendukung pertumbuhan otot. Tidak berarti harus makan berlebihan."
+    ],
+    [
+      "LEAN",
+      "Istilah umum untuk tubuh dengan relatif sedikit lemak tubuh. Bukan target kesehatan yang wajib untuk semua orang."
+    ],
+    [
+      "NATURAL",
+      "Dalam slang fitness berarti tanpa penggunaan obat peningkat performa tertentu. Definisi komunitas dapat berbeda."
+    ],
+    [
+      "NATURALMAXXING",
+      "Istilah bercanda untuk fokus pada kebiasaan non-invasif seperti tidur, kebersihan, olahraga, rambut, kulit, dan style."
+    ],
+    [
+      "JBW",
+      "Dalam sebagian komunitas berarti 'Just Be White'. Biasanya muncul sebagai meme/claim komunitas dan bukan hukum tentang daya tarik."
+    ],
+    [
+      "JBE",
+      "Dalam sebagian komunitas berarti 'Just Be Ethnic'. Arti dan penggunaannya bergantung forum."
+    ],
+    [
+      "JBB",
+      "Dalam sebagian komunitas berarti 'Just Be Black'. Biasanya merupakan slang/meme dan tidak boleh diperlakukan sebagai aturan universal."
+    ],
+    [
+      "JBS",
+      "Singkatan yang bisa memiliki beberapa arti. Dalam komunitas tertentu dapat berarti 'Just Be Short'; jangan menebak tanpa konteks."
+    ],
+    [
+      "JBF",
+      "Singkatan yang ambigu; arti bisa berbeda menurut komunitas. Kirim konteks kalimat jika ingin memastikan."
+    ],
+    [
+      "DNR / JBT / JBG",
+      "Tiga singkatan yang sering muncul dalam pertanyaan slang komunitas. JBT dan JBG punya penggunaan spesifik di sebagian forum, sedangkan DNR sangat bergantung konteks."
+    ],
+    [
+      "HALO EFFECT",
+      "Kecenderungan satu kesan positif memengaruhi penilaian terhadap karakteristik lain. Konsep ini lebih luas daripada looksmaxxing."
+    ],
+    [
+      "FAIL0 / FAILO",
+      "Slang yang dipakai sebagian komunitas untuk menyebut fitur atau kesan yang dianggap mengurangi keseluruhan penampilan. Ini penilaian subjektif."
+    ],
+    [
+      "MOG",
+      "Slang untuk terlihat lebih menonjol dibanding orang lain dalam konteks tertentu. Tidak berarti seseorang memiliki nilai lebih tinggi."
+    ],
+    [
+      "MOGGING",
+      "Tindakan/kejadian yang dianggap membuat seseorang terlihat lebih menonjol dibanding orang lain dalam konteks komunitas."
+    ]
+  ],
+  "safety": {
+    "title": "JANGAN KEJAR TREN BERBAHAYA",
+    "items": [
+      "Jangan melakukan bone smashing atau sengaja melukai wajah/tubuh demi mengubah bentuk.",
+      "Jangan melakukan dehidrasi, kelaparan, diet ekstrem, atau olahraga berlebihan untuk mengejar penampilan.",
+      "Jangan memakai obat, hormon, steroid, atau melakukan prosedur berdasarkan saran forum tanpa tenaga kesehatan yang berwenang.",
+      "Jangan menjadikan rating PSL atau tier komunitas sebagai ukuran nilai diri. Istilah tersebut hanyalah slang dan penilaiannya tidak baku.",
+      "Kalau ada slang yang belum ada di kamus, cari konteks kalimatnya atau kirim istilah + contoh kalimat agar artinya tidak ditebak."
+    ]
+  }
+}
