@@ -43,11 +43,48 @@ function setVideo(id, url) {
   const el = document.getElementById(id);
   if (!el) return;
   el.style.display = "none";
-  if (!url) return;
+  if (!url || typeof url !== "string") return;
   const clean = safeUrl(url);
   if (!clean) return;
   el.href = clean;
   el.style.display = "inline-flex";
+}
+
+function youtubeId(url) {
+  try {
+    const u = new URL(url);
+    if (u.hostname.includes("youtu.be")) return u.pathname.slice(1).split("/")[0];
+    if (u.searchParams.get("v")) return u.searchParams.get("v");
+    const parts = u.pathname.split("/").filter(Boolean);
+    const i = parts.findIndex(x => x === "embed" || x === "shorts" || x === "live");
+    return i >= 0 ? parts[i + 1] : "";
+  } catch { return ""; }
+}
+
+function renderVideoPreview(video, fallbackTitle = "VIDEO") {
+  const url = typeof video === "string" ? video : video?.url;
+  const title = typeof video === "string" ? fallbackTitle : (video?.title || fallbackTitle);
+  if (!url) return "";
+  const clean = safeUrl(url);
+  if (!clean) return "";
+  const id = youtubeId(clean);
+  const thumb = id ? `https://i.ytimg.com/vi/${encodeURIComponent(id)}/hqdefault.jpg` : "";
+  return `
+    <a class="video-preview" href="${escapeHtml(clean)}" target="_blank" rel="noopener noreferrer">
+      ${thumb ? `<img src="${thumb}" alt="${escapeHtml(title)}" loading="lazy" onerror="this.style.display='none'">` : `<div class="video-preview-fallback">YT</div>`}
+      <span class="video-overlay"><span class="play-icon">▶</span></span>
+      <span class="video-preview-info"><strong>${escapeHtml(title)}</strong><small>▶ BUKA VIDEO YOUTUBE</small></span>
+    </a>`;
+}
+
+function renderFoundationVideos(videos) {
+  const section = document.getElementById("foundationVideoSection");
+  const grid = document.getElementById("foundationVideos");
+  if (!section || !grid) return;
+  const list = Array.isArray(videos) ? videos : (videos ? [videos] : []);
+  const html = list.map((v, i) => renderVideoPreview(v, `VIDEO ${i + 1} — MULAI DARI DASAR`)).join("");
+  grid.innerHTML = html;
+  section.style.display = html ? "block" : "none";
 }
 function setStatus(message, ok=false) {
   const el = document.getElementById("contentStatus");
@@ -104,7 +141,9 @@ function apply(data) {
   const images = data.images || {};
   Object.entries(images).forEach(([key, url]) => setImage(key === "hero" ? "heroImage" : `${key}Image`, url));
   const videos = data.videos || {};
-  Object.entries(videos).forEach(([key, url]) => setVideo(key === "main" ? "mainVideo" : `${key}Video`, url));
+  setVideo("mainVideo", videos.main);
+  renderFoundationVideos(videos.foundation);
+  ["face", "fitness", "hair", "skin", "style"].forEach(key => setVideo(`${key}Video`, videos[key]));
 
   const sec = data.sections || {};
   renderSection("sectionFoundation", sec.foundation, 1);
