@@ -1,22 +1,22 @@
 {
   "site": {
-    "brand": "DIKARCHETYPE",
+    "brand": "DIKARCHETYOE",
     "title": "LOOKMAXXING ROADMAP",
     "subtitle": "Panduan dasar untuk merawat diri, rambut, kulit, kebugaran, gaya, dan kebiasaan sehat. Mulai dari hal yang bisa dikontrol dan hindari metode ekstrem.",
     "tag": "NEW MEMBER • INDONESIA",
-    "copyright": "© 2026 Dikarchetype",
+    "copyright": "© 2026 Dikarchetyoe",
     "accent": "DASAR • WAJAH • RAMBUT • KULIT • KEBUGARAN • GAYA"
   },
   "github": {
     "contentUrl": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/content.json",
-    "note": "Setelah file ini diunggah ke GitHub, ubah URL RAW di app.js agar website membaca versi GitHub. Jangan masukkan token atau password."
+    "note": "Untuk playlist custom, upload gambar thumbnail buatanmu ke folder assets lalu isi playlists di content.json. Klik thumbnail/card akan membuka playlist YouTube."
   },
   "videos": {
     "main": "",
     "foundation": [
       {
         "title": "VIDEO 1 — MULAI DARI DASAR",
-        "url": "https://youtu.be/7HvcoICeA-8?si=FgMrU7gJ_OxwJE4Z"
+        "url": ""
       },
       {
         "title": "VIDEO 2 — DASAR LOOKMAXXING",
@@ -667,5 +667,30 @@
       "Jangan menjadikan rating PSL atau tier komunitas sebagai ukuran nilai diri. Istilah tersebut hanyalah slang dan penilaiannya tidak baku.",
       "Kalau ada slang yang belum ada di kamus, cari konteks kalimatnya atau kirim istilah + contoh kalimat agar artinya tidak ditebak."
     ]
+  },
+  "playlists": {
+  "foundation": [
+    {
+      "title": "START WITH BASICS",
+      "subtitle": "Mulai dari Dasar",
+      "description": "Playlist dasar lookmaxxing.",
+      "image": "assets/foundation.jpg",
+      "url": "https://youtube.com/playlist?list=PLLx4L9Q3MNxA&si=tKjMjfU1F5y3PF4M"
+    },
+    {
+      "title": "BASIC GROOMING",
+      "subtitle": "Dasar Grooming",
+      "description": "Playlist tentang dasar grooming.",
+      "image": "assets/grooming.jpg",
+      "url": "https://www.youtube.com/playlist?list=PLAYLIST_2"
+    }
+  ]
+  }
+    ],
+    "face": [],
+    "fitness": [],
+    "hair": [],
+    "skin": [],
+    "style": []
   }
 }
